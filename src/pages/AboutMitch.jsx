@@ -5,6 +5,7 @@ import BottonLine from "../ui/BottonLine";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
+// About Mitch
 export default function AboutMitch() {
   const [clicked, setClicked] = useState(false);
 

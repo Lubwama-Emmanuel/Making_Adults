@@ -18,9 +18,13 @@ export default function Mitch() {
               <div className="w-[300px]">
                 <p className="text-2xl text-blue-700">Investor:</p>
                 <p>
-                  {" "}
-                  Seed round personal investment in tech startups
-                  <a href="https://ashcreekadvisors.com">
+                  Seed round personal investment in tech startups{" "}
+                  <a
+                    href="https://ashcreekadvisors.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-blue-500 hover:underline"
+                  >
                     (https://ashcreekadvisors.com).
                   </a>
                 </p>
@@ -60,7 +64,12 @@ export default function Mitch() {
                 <p>What makes a great manager? Deep dive withing companies.</p>
                 <p>
                   True Point case research.{" "}
-                  <a href="https://www.truepoint.com/">
+                  <a
+                    href="https://www.truepoint.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-blue-500 hover:underline"
+                  >
                     https://www.truepoint.com/
                   </a>
                 </p>
@@ -146,7 +155,12 @@ export default function Mitch() {
             <p>What makes a great manager? Deep dive withing companies.</p>
             <p>
               True Point case research.{" "}
-              <a href="https://www.truepoint.com/">
+              <a
+                href="https://www.truepoint.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-blue-500 hover:underline"
+              >
                 https://www.truepoint.com/
               </a>
             </p>
@@ -156,7 +170,12 @@ export default function Mitch() {
             <p>
               {" "}
               Seed round personal investment in tech startups
-              <a href="https://ashcreekadvisors.com">
+              <a
+                href="https://ashcreekadvisors.com"
+                target="_blank"
+                rel="noreferrer"
+                className="text-blue-500 hover:underline"
+              >
                 (https://ashcreekadvisors.com).
               </a>
             </p>

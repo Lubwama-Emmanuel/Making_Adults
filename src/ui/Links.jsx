@@ -26,13 +26,13 @@ export default function Links({ styles }) {
   return (
     <ul className={styles}>
       {links.map((el) => (
-        <Link el={el} key={el.id} />
+        <LinkItem el={el} key={el.id} />
       ))}
     </ul>
   );
 }
 
-function Link({ el }) {
+function LinkItem({ el }) {
   return (
     <li className="">
       <a href={el.link}>{el.item}</a>

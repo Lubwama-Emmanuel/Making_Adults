@@ -1,6 +1,6 @@
 export default function Mitch() {
   return (
-    <section className="mx-auto max-w-screen-2xl">
+    <section className="mx-auto mt-24 max-w-screen-2xl">
       <div className="hidden sm:block">
         <h2 className="my-7 text-center text-5xl font-semibold capitalize">
           about dr. mitch

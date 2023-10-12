@@ -14,7 +14,7 @@ export default function Homepage() {
   return (
     <div className="mx-auto max-w-screen-2xl">
       <Header clicked={clicked} setClicked={setClicked} />
-      {clicked && <MobileMenu />}
+      {clicked && <MobileMenu setClicked={setClicked} />}
 
       <Hero />
       <Offer />

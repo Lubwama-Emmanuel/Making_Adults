@@ -31,7 +31,7 @@ export default function Mitch() {
               </div>
             </div>
           </div>
-          <div className="grid items-start lg:grid-cols-[30%_40%_30%]">
+          <div className="grid items-center lg:grid-cols-[30%_40%_30%]">
             <div className="px-10 py-8">
               <div>
                 <p className="text-2xl text-blue-700">Social Scientist:</p>

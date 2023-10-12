@@ -182,7 +182,7 @@ const Checkbox = ({ el, checking }) => {
         value={el.item}
         onChange={(e) => getCheckedValue(e)}
         checked={checking}
-        className="h-4 w-4 transition-all duration-200 focus:outline-none focus:ring focus:ring-blue-600 focus:ring-offset-2"
+        className="sm:h-4 sm:w-4 transition-all duration-200 focus:outline-none focus:ring focus:ring-blue-600 focus:ring-offset-2"
       />
       <label>{el.item}</label>
     </div>

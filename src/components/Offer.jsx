@@ -48,7 +48,9 @@ export default function Offer() {
             </div> */}
           </div>
           <div className="flex flex-col items-center justify-center sm:hidden">
-            <h3 className="mb-5 text-3xl">Two Opportunities</h3>
+            <h3 className="mb-5 text-center text-4xl">
+              Two Opportunities <br></br> - No Cost
+            </h3>
             <div className="space-y-10">
               <Offers
                 desc={
@@ -61,12 +63,12 @@ export default function Offer() {
                 }
               />
             </div>
-            <div className="mt-7 text-center">
+            {/* <div className="mt-7 text-center">
               <h3 className="text-2xl">No Cost</h3>
               <p className="">
                 You give us your time and ideas and we give you ours.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div>

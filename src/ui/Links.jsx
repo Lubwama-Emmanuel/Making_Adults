@@ -11,13 +11,13 @@ const links = [
   },
   {
     id: 3,
-    item: "About Dr.Mitch",
-    link: "#about",
+    item: "Connect",
+    link: "#contact",
   },
   {
     id: 4,
-    item: "Connect",
-    link: "#contact",
+    item: "About Dr.Mitch",
+    link: "#about",
   },
 ];
 

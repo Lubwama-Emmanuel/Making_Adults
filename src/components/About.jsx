@@ -3,7 +3,7 @@ import Heading from "../ui/Heading";
 import AppSection from "../ui/AppSection";
 
 const scrollToTop = () => {
-  window.scrollTo(0, 0);
+  window.scrollY(0);
 };
 
 // about Mitch section
@@ -31,11 +31,11 @@ export default function About() {
           </div>
         </div>
         <div className="mb-16 flex justify-center">
-          <h2 className="w-[90%] rounded-lg border border-blue-800 py-3 text-center text-2xl font-bold text-blue-800 underline transition-all duration-200 hover:scale-105 sm:w-[30%] sm:py-2">
-            <Link onClick={scrollToTop} to="/mitch">
+          <Link onClick={scrollToTop} to="/mitch">
+            <h3 className="w-[90%] rounded-lg border border-blue-800 py-3 text-center text-2xl font-bold text-blue-800 underline transition-all duration-200 hover:scale-105 sm:w-[30%] sm:py-2">
               Learn more about Dr. Mitch
-            </Link>
-          </h2>
+            </h3>
+          </Link>
         </div>
       </div>
     </AppSection>

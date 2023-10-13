@@ -35,7 +35,7 @@ export default function Hero() {
                 style={{
                   backgroundImage: `url(images/Chart_3.png)`,
                 }}
-                className="hidden bg-cover bg-bottom bg-no-repeat sm:block sm:h-[800px]"
+                className="hidden bg-contain bg-bottom bg-no-repeat sm:block sm:h-[800px]"
               ></div>
 
               <div

@@ -59,12 +59,12 @@ export default function Mitch() {
             <div className="">
               <div className="px-10 py-8">
                 <p className="text-2xl text-blue-700">Management Consultant</p>
-                <p>Can you execute on your strategy?</p>
+                <p>Cultural and behavioral barriers to company performance.</p>
                 <p>
                   Longitudinal corporate assessment across 17 languages, 40+
                   offices and countries.
                 </p>
-                <p>What makes a great manager? Deep dive withing companies.</p>
+                <p>What makes a great manager?</p>
                 <p>
                   True Point case research.{" "}
                   <a
@@ -101,9 +101,9 @@ export default function Mitch() {
                   State of Connecticut behavioral health Quality Assurance
                   subcommittee.
                 </p>
-                <p>Quality of care and managed care research study.</p>
                 <p>
-                  Taught in nations #1 program in Marriage and Family Therapy.
+                  Taught in nation's #1 PhD program in Marriage and Family
+                  Therapy.
                 </p>
                 <p>AAMFT Approved Supervisor.</p>
                 <p>Trained 8 cohorts of family therapists.</p>
@@ -157,12 +157,12 @@ export default function Mitch() {
           </div>
           <div className="">
             <p className="text-2xl text-blue-700">Management Consultant</p>
-            <p>Can you execute on your strategy?</p>
+            <p>Cultural and behavioral barriers to company performance.</p>
             <p>
               Longitudinal corporate assessment across 17 languages, 40+ offices
               and countries.
             </p>
-            <p>What makes a great manager? Deep dive withing companies.</p>
+            <p>What makes a great manager?</p>
             <p>
               True Point case research.{" "}
               <a
@@ -198,7 +198,9 @@ export default function Mitch() {
               subcommittee.
             </p>
             <p>Quality of care and managed care research study.</p>
-            <p>Taught in nations #1 program in Marriage and Family Therapy.</p>
+            <p>
+              Taught in nation's #1 PhD program in Marriage and Family Therapy.
+            </p>
             <p>AAMFT Approved Supervisor.</p>
             <p>Trained 8 cohorts of family therapists.</p>
           </div>

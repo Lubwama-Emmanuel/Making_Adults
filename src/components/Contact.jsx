@@ -123,14 +123,6 @@ export default function Contact() {
               Let's get in touch.
             </h3>
             <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
-              {/* <input
-                type="text"
-                placeholder="Name"
-                value={name}
-                onChange={(e) => setName((name) => e.target.value)}
-                required
-                className="rounded-full border border-blue-800 px-5 py-3 transition-all duration-200 focus:outline-none focus:ring focus:ring-blue-600 focus:ring-offset-2"
-              /> */}
               <input
                 type="email"
                 placeholder="Enter Email Address"
@@ -139,14 +131,6 @@ export default function Contact() {
                 required
                 className="rounded-full border border-blue-800 px-5 py-3 transition-all duration-200 focus:outline-none focus:ring focus:ring-blue-600 focus:ring-offset-2"
               />
-              {/* <input
-                type="phone"
-                placeholder="Phone"
-                value={phone}
-                onChange={(e) => setPhone((phone) => e.target.value)}
-                required
-                className="rounded-full border border-blue-800 px-5 py-3 transition-all duration-200 focus:outline-none focus:ring focus:ring-blue-600 focus:ring-offset-2"
-              /> */}
             </form>
             <div className="flex justify-center">
               <button
@@ -176,13 +160,13 @@ const Checkbox = ({ el, checking }) => {
   }
 
   return (
-    <div className="flex items-center space-x-2">
+    <div className="space-x-2">
       <input
         type="checkbox"
         value={el.item}
         onChange={(e) => getCheckedValue(e)}
         checked={checking}
-        className="sm:h-4 sm:w-4 transition-all duration-200 focus:outline-none focus:ring focus:ring-blue-600 focus:ring-offset-2"
+        className="sm:h-4 sm:w-4 w-5 h-5 transition-all duration-200 focus:outline-none focus:ring focus:ring-blue-600 focus:ring-offset-2"
       />
       <label>{el.item}</label>
     </div>

@@ -17,10 +17,10 @@ export default function About() {
         <Heading number={4} title={"About Dr.Mitch"} />
         <div className="mb-10 grid grid-cols-2 items-center">
           <div className="flex flex-col items-center space-y-10 px-2 sm:block sm:space-y-16">
-            <Aspect aspect={"investor"} />
-            <Aspect aspect={"Psychologist"} />
-            <Aspect aspect={"social scientist"} />
+            <Aspect aspect={"Investor in startups"} />
             <Aspect aspect={"serial entrepreneur"} />
+            <Aspect aspect={"Management consultant"} />
+            <Aspect aspect={"scientist"} />
           </div>
           <div className="flex justify-center">
             <img
@@ -46,7 +46,7 @@ function Aspect({ aspect }) {
   return (
     <div className="flex items-center justify-between gap-2">
       <div className="hidden h-[2px] w-auto flex-grow bg-[#000] sm:block"></div>
-      <h3 className="text-2xl capitalize">{aspect}</h3>
+      <h3 className="sm:text-2xl text-lg text-center capitalize">{aspect}</h3>
     </div>
   );
 }

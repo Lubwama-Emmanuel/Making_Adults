@@ -14,7 +14,7 @@ export default function About() {
         id="about"
         className="mx-auto max-w-[100%] md:max-w-[98%] lg:max-w-[90%]"
       >
-        <Heading number={4} title={"About Dr.Mitch"} />
+        <Heading number={4} title={"About Dr. Mitch"} />
         <div className="mb-10 grid grid-cols-2 items-center">
           <div className="flex flex-col items-center space-y-10 px-2 sm:block sm:space-y-16">
             <Aspect aspect={"Investor in startups"} />

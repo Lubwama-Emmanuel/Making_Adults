@@ -36,9 +36,7 @@ let clickedValues = [];
 let checkedValue = [];
 
 export default function Contact() {
-  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
 
   const [checking, setChecking] = useState();
 
@@ -47,9 +45,7 @@ export default function Contact() {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    response.name = name;
     response.email = email;
-    response.phone = phone;
 
     for (let item of clickedValues) {
       checkedValue.push(item.item);
@@ -57,12 +53,7 @@ export default function Contact() {
 
     response.checkedValue = checkedValue;
 
-    if (
-      !response.checkedValue ||
-      !response.name ||
-      !response.email ||
-      !response.phone
-    ) {
+    if (!response.checkedValue || !response.email) {
       notify = () => toast.error("Some fields are missing");
       notify();
       return;
@@ -91,9 +82,7 @@ export default function Contact() {
     }
 
     setChecking(false);
-    setName("");
     setEmail("");
-    setPhone("");
   }
   return (
     <AppSection className="m-auto max-w-[90%]">

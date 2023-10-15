@@ -59,6 +59,7 @@ export default function Contact() {
       return;
     }
 
+    // make call to the backend API
     try {
       const res = await axios.post(
         "https://api.ashcreekadvisors.com/api/EmailSender/contact/newContact",

@@ -22,19 +22,19 @@ const links = [
 ];
 
 // Separator component
-export default function Links({ styles, setClicked }) {
+export default function Links({ styles }) {
   return (
     <ul className={styles}>
       {links.map((el) => (
-        <LinkItem el={el} key={el.id} setClicked={setClicked} />
+        <LinkItem el={el} key={el.id} />
       ))}
     </ul>
   );
 }
 
-function LinkItem({ el, setClicked }) {
+function LinkItem({ el }) {
   return (
-    <li className="" onClick={() => setClicked((value) => !value)}>
+    <li className="">
       <a href={el.link}>{el.item}</a>
     </li>
   );

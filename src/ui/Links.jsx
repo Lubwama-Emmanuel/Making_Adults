@@ -34,7 +34,7 @@ export default function Links({ styles }) {
 
 function LinkItem({ el }) {
   return (
-    <li className="">
+    <li>
       <a href={el.link}>{el.item}</a>
     </li>
   );

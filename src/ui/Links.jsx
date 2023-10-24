@@ -32,7 +32,6 @@ export default function Links({ styles }) {
   );
 }
 
-// Link componet
 function LinkItem({ el }) {
   return (
     <li>

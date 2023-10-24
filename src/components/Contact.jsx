@@ -62,7 +62,7 @@ export default function Contact() {
     // make call to the backend API
     try {
       const res = await axios.post(
-        "https://api.ashcreekadvisors.com/api/EmailSender/contact/newContact",
+        "https://api.makingadults.com/api/EmailSender/contact/newContact",
         response
       );
 
@@ -78,6 +78,7 @@ export default function Contact() {
         }, 3000);
       }
     } catch (error) {
+      console.log(error);
       notify = () => toast.error("Check your internet");
       notify();
     }
